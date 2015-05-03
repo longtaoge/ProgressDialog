@@ -1,26 +1,16 @@
-/**************************************************************************************
- * [Project]
- *       MyProgressDialog
- * [Package]
- *       com.lxd.widgets
- * [FileName]
- *       CustomProgressDialog.java
- * [Copyright]
- *       Copyright 2012 LXD All Rights Reserved.
- * [History]
- *       Version          Date              Author                        Record
- *--------------------------------------------------------------------------------------
- *       1.0.0           2012-4-27         lxd (rohsuton@gmail.com)        Create
- **************************************************************************************/
-
 package org.xiangbalao.progressdialog;
-
 import android.app.Dialog;
 import android.content.Context;
 import android.graphics.drawable.AnimationDrawable;
 import android.view.Gravity;
 import android.widget.ImageView;
 import android.widget.TextView;
+/** 
+ * 类名: ProgressDialog</br> 
+ * 描述: </br>
+ * 开发人员： longtaoge</br>
+ * 创建时间： 2013-5-3 
+ */ 
 
 public class ProgressDialog extends Dialog {
 	private Context context = null;
